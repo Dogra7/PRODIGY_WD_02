@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch with Lap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>STOPWATCH</h1>
+        </div>
+
+        <div class="stopwatch-display">
+            <svg width="180" height="180">
+                <circle cx="90" cy="90" r="80" stroke="white" stroke-width="10" fill="none" class="progress-circle"></circle>
+                <circle cx="90" cy="90" r="80" stroke="#007BFF" stroke-width="10" fill="none" class="progress-circle-fill"></circle>
+            </svg>
+            <div class="time-display">
+                <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+            </div>
+        </div>
+
+        <ul id="laps" class="lap-list"></ul> 
+
+        <button id="lap" class="lap-button">LAP</button>
+
+        <div class="controls">
+            <button id="start-pause" class="control-button">
+                ⏵ 
+            </button>
+            <button id="reset" class="control-button">
+                ⏹ 
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

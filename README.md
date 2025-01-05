@@ -20,8 +20,13 @@ JavaScript: For implementing the stopwatch logic, including time tracking, lap r
 Folder Structure : -
 
 PRODIGY_WD_02/
+
 │
+
 ├── index.html       # HTML structure of the application
+
 ├── styles.css       # CSS for styling the application
+
 ├── script.js        # JavaScript for stopwatch functionality
+
 └── README.md        # Project documentation (this file)
